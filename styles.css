@@ -2,14 +2,14 @@
 /*this is an import for the font*/
 *{
     margin:0;
-    padding: 0;
+    padding: 5px;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
 /*this is for the basics like the font*/
 body {
-    padding: 50px;
+    padding: 0px;
     margin: auto;
     display:inline-block;
     justify-content:center;
@@ -39,12 +39,12 @@ body {
 
 .News_Container{
     background-color: rgb(240, 221, 178);
-    padding: 3cm;
+    padding: 1cm;
     font-weight: 200;
 }
 
 .navbar{
-    display: flex;
+    display:block;
     align-items: center;
     padding: 20px;
 
@@ -52,7 +52,7 @@ body {
 /*the nav bar is at the top of the page and the items are centered*/
 nav{
     flex: 1;
-    text-align: right;
+    text-align:center;
 }
 /*alligned to the right of the page*/
 nav ul{
@@ -79,20 +79,15 @@ h1{
     width:fit-content
 }
 
-img{
+.LibraryPics{
     width: 164px;
     height: 230px;
-    float: left;
 }
 
 .Library_List{
     padding: 70px;
-    float: left;
     width: 50%;
-}
-
-.clearfix{
-    overflow: auto;
+    float:left;
 }
 
 .P_Library{
@@ -105,11 +100,17 @@ img{
 }
 
 ._Picture{
-    padding: 50px;
-    float: right;
+    padding: 10px;
 }
 
 .About_Text{
     padding: 50px;
+    align-items: center;
     
+}
+
+img{
+    height: 35%;
+    width: 35%;
+    padding: 10px;
 }
